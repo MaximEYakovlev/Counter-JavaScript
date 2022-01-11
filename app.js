@@ -3,7 +3,7 @@ let count = 0;
 const value = document.querySelector("#value");
 const buttons = document.querySelectorAll(".btn");
 
-buttons.forEach(function (button) {
+buttons.forEach((button) => {
   button.addEventListener("click", (event) => {
     const className = event.currentTarget.classList;
     if (className.contains("increase")) {
